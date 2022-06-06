@@ -24,7 +24,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <>
-      <HashRouter>
+      <Router>
         <div className="container-fluid g-0">
           <nav className="navbar nav justify-content-center px-5 ">
             <Link className="nav_link" to="/">
@@ -57,7 +57,7 @@ const App = () => {
           <Route path="/HowToOrder" element={<HowToOrder />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </HashRouter>
+      </Router>
     </>
   );
 };
