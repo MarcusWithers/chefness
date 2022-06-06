@@ -23,7 +23,6 @@ function Home() {
   };
   return (
     <>
-      <Burger />
       <div className="bg container-fluid g-0 text-center pt-5">
         <h1>
           <strong>

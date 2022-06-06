@@ -6,7 +6,6 @@ font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
-  background-color: #f5f5f5;
 }
 .container-fluid {
   background-color: #f5f5f5;
@@ -53,7 +52,6 @@ h5 {
 }
 @media screen and (max-width: 1149px) {
   .nav_link {
-    display: none;
   }
 }
 
