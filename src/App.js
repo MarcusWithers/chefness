@@ -8,7 +8,13 @@ import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  HashRouter,
+} from "react-router-dom";
 import Home from "./pages/Home";
 import HowToOrder from "./pages/HowToOrder";
 import Menu from "./pages/Menu";
@@ -18,7 +24,7 @@ import Contact from "./pages/Contact";
 const App = () => {
   return (
     <>
-      <Router>
+      <HashRouter>
         <div className="container-fluid g-0">
           <nav className="navbar nav justify-content-center px-5 ">
             <Link className="nav_link" to="/">
@@ -51,7 +57,7 @@ const App = () => {
           <Route path="/HowToOrder" element={<HowToOrder />} />
           <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </Router>
+      </HashRouter>
     </>
   );
 };
