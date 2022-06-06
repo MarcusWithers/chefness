@@ -1,0 +1,147 @@
+.navigation {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-decoration: none;
+
+  background-color: #98adf5;
+  color: black;
+}
+
+.navigation-menu {
+  text-decoration: none;
+}
+
+.navigation-menu ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+.navigation-menu li {
+  text-align: center;
+
+  margin: 0;
+}
+.navigation-menu li a {
+  color: black;
+  width: 100%;
+  margin-right: 100px;
+  padding-top: 1rem;
+
+  padding-bottom: 1rem;
+  text-decoration: none;
+  z-index: 5;
+}
+.navigation-menu li:hover {
+  background-color: #eee;
+}
+.navigation-menu li {
+  text-decoration: none;
+}
+
+.hamburger {
+  border: 0;
+  height: 40px;
+  width: 40px;
+  margin-top: 35px;
+  margin-left: 5px;
+
+  padding: 0.5rem;
+  border-radius: 50%;
+  background-color: #dc3545;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  transform: translateY(-50%);
+}
+
+@media screen and (max-width: 1149px) {
+  .hamburger {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 1149px) {
+  .navigation-menu ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    flex-direction: column;
+    height: calc(100vh - 77px);
+  }
+}
+@media screen and (max-width: 1149px) {
+  .navigation-menu.expanded ul {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 20px) {
+  .navigation-menu.expanded li {
+    display: none;
+  }
+}
+@media screen and (min-width: 200px) {
+  .navigation-menu li {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 20px) {
+  .nav.navigation {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1149px) {
+  .navigation-menu li {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1149px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1149px) {
+  .hamburger_helper {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 2px) {
+  .navigation-menu li a {
+    display: none;
+  }
+}
+@media screen and (min-width: 2px) {
+  .navigation-menu.expanded li a {
+    display: inline-block;
+
+    background-color: #f5df99;
+    color: #98adf5;
+    text-decoration: none;
+  }
+}
+
+.navigation-menu li:hover {
+  background-color: black;
+}
+
+@media screen and (min-width: 1149px) {
+  .navigation {
+    display: none;
+  }
+}
+
+.navigation-menu ul {
+  padding-top: 40px;
+  z-index: 999;
+}
+
+.hamburger:hover {
+  background-color: #f5df99;
+}

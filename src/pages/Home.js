@@ -13,6 +13,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/styles.css";
+import Burger from "../components/Burger";
 
 function Home() {
   const navigate = useNavigate();
@@ -22,15 +23,18 @@ function Home() {
   };
   return (
     <>
-      <div className="bg container-fluid text-center pt-5">
+      <Burger />
+      <div className="bg container-fluid g-0 text-center pt-5">
         <h1>
-          Best <em>Homemade</em> Cookies in Richfield!
+          <strong>
+            Best <em>Homemade</em> Cookies in Richfield, Minnesota!
+          </strong>
         </h1>
         <h5 className="pt-2">
           Try My S'mores Cookie, You Definitely Won't Regret It!
         </h5>
         <div className="pt-5 pb-5">
-          <Button className=" btn-secondary" size="lg" onClick={navigateToMenu}>
+          <Button className=" btn-danger" size="lg" onClick={navigateToMenu}>
             Menu
           </Button>
         </div>
@@ -76,7 +80,9 @@ function Home() {
         </div>
 
         <div className="pt-5 pb-5 border-top">
-          <h2 className="pb-5">Here's some of my cookies!</h2>
+          <h2 className="pb-5">
+            <strong>Here's some of my cookies!</strong>
+          </h2>
           <Carousel />
         </div>
         <div className="contact pt-5">
@@ -88,9 +94,14 @@ function Home() {
               <Row>
                 <Col className="pt-5 mt-5">
                   <img className="img-fluid rounded" src={Chefness} />
+                  <p className="pt-3 ">
+                    Feel free to contact me whenever for any questions regarding
+                    purchases
+                  </p>
+                  <Button className=" btn-danger">Contact Me</Button>
                 </Col>
                 <Col>
-                  <h2>Janessa Withers</h2>
+                  <h2>Chefness</h2>
                   <h2>xxx-xxx-xxxx</h2>
                   <p>Available During These Days</p>
                   <p>Sunday</p>
@@ -101,11 +112,6 @@ function Home() {
                   <p>Friday</p>
                   <p>Saturday</p>
                   <br />
-                  <p>
-                    Feel free to contact me whenever for any questions regarding
-                    purchases
-                  </p>
-                  <Button>Contact Me</Button>
                 </Col>
               </Row>
             </div>
@@ -124,6 +130,11 @@ function Home() {
                   window.open("mailto:cookiesbychefness24@gmail.com")
                 }
               />
+            </div>
+            <div className="footer_footer pt-5 pb-5">
+              <img src={Chefness} />
+              <p className="pt-5">Chefness | Richfield, MN 55423</p>
+              <p>xxx-xxx-xxxx | chefness24@gmail.com</p>
             </div>
           </div>
         </div>

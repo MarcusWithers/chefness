@@ -3,11 +3,11 @@ import "./styles/styles.css";
 import Carousel from "./components/Carousel";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Cookie from "./images/cookie.png";
 import Chefness from "./images/chefness.jpg";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import HowToOrder from "./pages/HowToOrder";
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <>
       <Router>
-        <div className="container-fluid ">
+        <div className="container-fluid g-0">
           <nav className="navbar nav justify-content-center px-5 ">
             <Link className="nav_link" to="/">
               <strong>Home</strong>
