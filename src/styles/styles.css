@@ -52,6 +52,7 @@ h5 {
 }
 @media screen and (max-width: 1149px) {
   .nav_link {
+    display: none;
   }
 }
 
