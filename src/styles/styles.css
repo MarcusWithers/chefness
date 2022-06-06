@@ -1,0 +1,92 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+font-family: "Montserrat", sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  color: #5fd068;
+  font-family: "Montserrat", sans-serif;
+}
+h2 {
+  color: #5fd068;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+h5 {
+  color: #4b8673;
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 16px !important;
+  background-color: #f5df99;
+}
+.nav_link {
+  color: white;
+  text-decoration: none;
+  margin-right: 4rem;
+  margin-left: 4rem;
+  font-size: 22px;
+}
+.nav_link:hover {
+  color: black;
+}
+.wrapper {
+  display: flex !important;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.icon {
+  cursor: pointer;
+}
+.icon:hover {
+  opacity: 0.3;
+}
+.sliderImg {
+  box-sizing: border-box;
+  height: 500px;
+  width: 600px;
+  object-fit: cover;
+}
+
+.imgTitle {
+  font-weight: 900;
+}
+
+.heading {
+  background-color: #f5df99;
+}
+.contact_header {
+  background-color: #f5df99;
+}
+
+.aboutme_header {
+  background-color: #f5df99;
+}
+
+.footer {
+  background-color: #f5df99;
+}
+
+.header_text {
+  font-size: 2em;
+}
