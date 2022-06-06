@@ -1,6 +1,11 @@
 import React, { useState } from "react";
 import "../styles/burger.css";
 import "../styles/styles.css";
+import Home from "../pages/Home";
+import HowToOrder from "../pages/HowToOrder";
+import Menu from "../pages/Menu";
+import ErrorPage from "../pages/ErrorPage";
+import Contact from "../pages/Contact";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Burger() {
@@ -53,14 +58,14 @@ function Burger() {
               </Link>
             </li>
             <li>
-              <a href="/HowToOrder">
+              <Link to="/HowToOrder">
                 <strong>Order</strong>
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/Contact">
+              <Link to="/Contact">
                 <strong>Contact</strong>
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
