@@ -43,22 +43,22 @@ function Burger() {
           {" "}
           <ul>
             <li>
-              <a href="/">
+              <a href="/chefness/">
                 <strong>Home</strong>
               </a>
             </li>
             <li>
-              <a href="/Menu">
+              <a href="/chefness/Menu">
                 <strong>Menu</strong>
               </a>
             </li>
             <li>
-              <a href="/HowToOrder">
+              <a href="/chefness/HowToOrder">
                 <strong>Order</strong>
               </a>
             </li>
             <li>
-              <a href="/Contact">
+              <a href="/chefness/Contact">
                 <strong>Contact</strong>
               </a>
             </li>
