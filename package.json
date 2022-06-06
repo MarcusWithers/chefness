@@ -1,6 +1,5 @@
 {
   "name": "chefness",
-  "homepage": "https://marcuswithers.github.io/chefness",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
