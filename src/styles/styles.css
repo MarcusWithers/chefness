@@ -1,5 +1,6 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
+/* blue shade#98adf5*/
 font-family: "Montserrat", sans-serif;
 * {
   padding: 0;
@@ -99,7 +100,8 @@ h5 {
   background-color: #f5df99;
 }
 .footer_footer {
-  background-color: #98adf5;
+  background-color: #512717;
+  color: #f5df99;
 }
 .header_text {
   font-size: 2em;
