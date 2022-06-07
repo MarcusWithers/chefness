@@ -17,6 +17,7 @@ import "../styles/styles.css";
 function Menu() {
   return (
     <div className="bg container-fluid text-center  g-0 ">
+      <Burger />
       <div>
         <Dropdown className="dropdown pt-5 ">
           <Dropdown.Toggle variant="danger" id="dropdown-basic">
