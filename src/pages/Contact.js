@@ -4,7 +4,7 @@ import Burger from "../components/Burger";
 
 function Contact() {
   return (
-    <div className="container text-center">
+    <div className="container-fluid text-center">
       <Burger />
       <h1>Contact</h1>
     </div>

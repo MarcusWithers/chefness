@@ -7,7 +7,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/styles.css";
 function ErrorPage() {
   return (
-    <div className="container text-center">
+    <div className="container-fluid text-center">
       <Burger />
       <h4>We couldn't find the webpage that you're looking for.</h4>
       <h4>

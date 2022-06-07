@@ -85,7 +85,7 @@ function Home() {
           </h2>
           <Carousel />
         </div>
-        <div className="contact pt-5">
+        <div className="contact pt-5 ">
           <div className="contact_header border-top border-bottom pt-5 pb-5">
             <strong className="header_text">Contact</strong>
           </div>
