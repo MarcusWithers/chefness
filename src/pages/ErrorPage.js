@@ -8,6 +8,7 @@ import "../styles/styles.css";
 function ErrorPage() {
   return (
     <div className="container text-center">
+      <Burger />
       We couldn't find the webpage that you're looking for.
       <ul>
         <li>

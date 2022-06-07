@@ -27,7 +27,7 @@ function Home() {
       <div className="bg container-fluid g-0 text-center pt-5">
         <h1>
           <strong>
-            Best <em>Homemade</em> Cookies in Richfield, Minnesota!!!
+            Best <em>Homemade</em> Cookies in Richfield, Minnesota!
           </strong>
         </h1>
         <h5 className="pt-2">

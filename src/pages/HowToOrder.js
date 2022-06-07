@@ -8,6 +8,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 function HowToOrder() {
   return (
     <div className="container-fluid text-center g-0">
+      <Burger />
       <h1 className="pt-5 pb-5">How To Order!</h1>
       <h3 className="pb-5">
         Below is what to include in your DM (I'm not currently doing online
