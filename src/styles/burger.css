@@ -5,8 +5,7 @@
   align-items: center;
   position: relative;
   text-decoration: none;
-
-  background-color: #98adf5;
+  background-color: #6f3b26;
   color: black;
 }
 
@@ -144,4 +143,8 @@
 
 .hamburger:hover {
   background-color: #f5df99;
+}
+
+.hamburger_helper {
+  color: #f5df99;
 }
