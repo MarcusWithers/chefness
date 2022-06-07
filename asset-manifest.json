@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chefness/static/css/main.f44a3115.css",
-    "main.js": "/chefness/static/js/main.e97bca12.js",
+    "main.js": "/chefness/static/js/main.c9f368bc.js",
     "static/media/bananabread.jpg": "/chefness/static/media/bananabread.170ad792acb49c285908.jpg",
     "static/media/cookie3.jpg": "/chefness/static/media/cookie3.9ff5814ede36fdfd424b.jpg",
     "static/media/cookie1.jpg": "/chefness/static/media/cookie1.d503aa361a599c1bd961.jpg",
@@ -24,10 +24,10 @@
     "static/media/chefness.jpg": "/chefness/static/media/chefness.fbe1a1c48d826fd7c501.jpg",
     "index.html": "/chefness/index.html",
     "main.f44a3115.css.map": "/chefness/static/css/main.f44a3115.css.map",
-    "main.e97bca12.js.map": "/chefness/static/js/main.e97bca12.js.map"
+    "main.c9f368bc.js.map": "/chefness/static/js/main.c9f368bc.js.map"
   },
   "entrypoints": [
     "static/css/main.f44a3115.css",
-    "static/js/main.e97bca12.js"
+    "static/js/main.c9f368bc.js"
   ]
 }
