@@ -8,6 +8,10 @@ font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .container-fluid {
   background-color: #f5f5f5;
 }

@@ -85,14 +85,14 @@ function Home() {
           </h2>
           <Carousel />
         </div>
-        <div className="contact pt-5 ">
-          <div className="contact_header border-top border-bottom pt-5 pb-5">
+        <div className="contact pt-5  text-center ">
+          <div className="contact_header border-top border-bottom pt-5 pb-5 ">
             <strong className="header_text">Contact</strong>
           </div>
-          <div className="border-bottom ">
-            <div className="d-flex justify-content-center align-items-center pb-5 pt-5">
+          <div className="border-bottom align-items-center ">
+            <div className="d-flex justify-content-center align-items-center pb-5 pt-5  ">
               <Row>
-                <Col className="pt-5 mt-5">
+                <Col className="pt-5 mt-5 ">
                   <img className="img-fluid rounded" src={Chefness} />
                   <p className="pt-3 ">
                     Feel free to contact me whenever for any questions regarding
@@ -100,17 +100,11 @@ function Home() {
                   </p>
                   <Button className=" btn-danger">Contact Me</Button>
                 </Col>
-                <Col>
+                <Col className=" align-center ">
                   <h2>Chefness</h2>
                   <h2>xxx-xxx-xxxx</h2>
-                  <p>Available During These Days</p>
-                  <p>Sunday</p>
-                  <p>Monday</p>
-                  <p>Tuesday</p>
-                  <p>Wednesday</p>
-                  <p>Thursday</p>
-                  <p>Friday</p>
-                  <p>Saturday</p>
+                  <p>Available Throughout the week</p>
+
                   <br />
                 </Col>
               </Row>
