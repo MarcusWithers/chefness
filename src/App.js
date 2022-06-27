@@ -27,7 +27,7 @@ const App = () => {
       <Router>
         <div className="container-fluid g-0">
           <nav className="navbar nav justify-content-center px-5 ">
-            <Link className="nav_link" to="/">
+            <Link className="nav_link" to="/Home">
               <strong>Home</strong>
             </Link>
             <Link className="nav_link" to="/Menu">
@@ -51,7 +51,7 @@ const App = () => {
           </nav>
         </div>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/Home" element={<Home />} />
           <Route path="/Menu" element={<Menu />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/HowToOrder" element={<HowToOrder />} />

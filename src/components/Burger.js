@@ -48,7 +48,7 @@ function Burger() {
           {" "}
           <ul>
             <li>
-              <Link to="/">
+              <Link to="/Home">
                 <strong>Home</strong>
               </Link>
             </li>

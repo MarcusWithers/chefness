@@ -19,11 +19,11 @@ p {
   font-family: "Montserrat", sans-serif;
 }
 h1 {
-  color: #98adf5;
+  color: #6f3b26;
   font-family: "Montserrat", sans-serif;
 }
 h2 {
-  color: #98adf5;
+  color: #6f3b26;
   font-family: "Montserrat", sans-serif;
 }
 h3 {
@@ -33,7 +33,7 @@ h4 {
   font-family: "Montserrat", sans-serif;
 }
 h5 {
-  color: #98adf5;
+  color: #6f3b26;
   font-family: "Montserrat", sans-serif;
 }
 .nav {
@@ -43,7 +43,7 @@ h5 {
   padding-top: 25px;
   padding-bottom: 25px;
   font-size: 16px !important;
-  background-color: #f5df99;
+  background-color: #e4d1b4;
 }
 .nav_link {
   color: #f5f5f5;
@@ -53,7 +53,7 @@ h5 {
   font-size: 22px;
 }
 .nav a {
-  color: #98adf5;
+  color: #6f3b26;
 }
 .nav a:hover {
   color: #f5f5f5;
@@ -92,8 +92,18 @@ h5 {
 .heading {
   background-color: #f5df99;
 }
+.contact_page {
+  height: 100vh;
+  margin: auto;
+  background-color: #f5f5f5;
+}
 .contact_header {
   background-color: #f5df99;
+}
+
+.contact_info {
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutme_header {
@@ -102,6 +112,8 @@ h5 {
 
 .footer {
   background-color: #f5df99;
+  display: flex;
+  justify-content: center;
 }
 .footer_footer {
   background-color: #512717;
@@ -109,4 +121,8 @@ h5 {
 }
 .header_text {
   font-size: 2em;
+}
+
+.insta_footer {
+  padding-right: 5px;
 }
