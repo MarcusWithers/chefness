@@ -2,6 +2,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 /* blue shade#98adf5*/
 font-family: "Montserrat", sans-serif;
+
 * {
   padding: 0;
   margin: 0;
@@ -63,6 +64,16 @@ h5 {
     display: none;
   }
 }
+@media screen and (max-width: 1149px) {
+  .image {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .image {
+    padding-top: 50px;
+  }
+}
 
 .wrapper {
   display: flex !important;
@@ -78,11 +89,9 @@ h5 {
 .icon:hover {
   opacity: 0.3;
 }
-.sliderImg {
-  box-sizing: border-box;
-  height: 500px;
-  width: 600px;
-  object-fit: cover;
+.sliderImg:hover {
+  border: 2px solid rgba(0, 0, 0, 0.253);
+  cursor: pointer;
 }
 
 .imgTitle {
@@ -90,34 +99,41 @@ h5 {
 }
 
 .heading {
-  background-color: #f5df99;
+  background-color: #e4d1b4;
 }
 .contact_page {
-  height: 100vh;
-  margin: auto;
   background-color: #f5f5f5;
 }
 .contact_header {
-  background-color: #f5df99;
+  background-color: #e4d1b4;
 }
 
 .contact_info {
   display: flex;
   flex-direction: column;
 }
+.contact_text {
+  font-size: 24px;
+}
 
 .aboutme_header {
-  background-color: #f5df99;
+  background-color: #e4d1b4;
+}
+@media screen and (min-width: 1200px) {
+  .aboutme_info {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
 }
 
 .footer {
-  background-color: #f5df99;
+  background-color: #e4d1b4;
   display: flex;
   justify-content: center;
 }
 .footer_footer {
   background-color: #512717;
-  color: #f5df99;
+  color: #e4d1b4;
 }
 .header_text {
   font-size: 2em;
@@ -130,4 +146,7 @@ h5 {
 .error_page {
   background-color: #f5f5f5;
   height: 100vh;
+}
+
+.menu_carousel {
 }

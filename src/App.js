@@ -7,24 +7,19 @@ import Chefness from "./images/chefness.jpg";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
-  HashRouter,
-} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import HowToOrder from "./pages/HowToOrder";
 import Menu from "./pages/Menu";
 import ErrorPage from "./pages/ErrorPage";
 import Contact from "./pages/Contact";
+import ScrollToTop from "./utilities/ScrollToTop";
 
 const App = () => {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <div className="container-fluid g-0">
           <nav className="navbar nav justify-content-center px-5 ">
             <Link className="nav_link" to="/Home">
@@ -51,6 +46,7 @@ const App = () => {
           </nav>
         </div>
         <Routes>
+          <Route path="/" element={<Home />} />
           <Route path="/Home" element={<Home />} />
           <Route path="/Menu" element={<Menu />} />
           <Route path="/Contact" element={<Contact />} />

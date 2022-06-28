@@ -4,7 +4,6 @@ import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Cookie1 from "../images/cookie1.jpg";
 import Chefness from "../images/chefness.jpg";
-import HeaderCookie from "../images/headercookie.png";
 import Button from "react-bootstrap/Button";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -25,14 +24,14 @@ function Home() {
   };
   return (
     <>
-      <Burger />
-      <div className="bg container-fluid g-0 text-center pt-5">
-        <h1>
+      <div className="bg container-fluid g-0 text-center  ">
+        <Burger />
+        <h1 className="pt-5 px-3">
           <strong>
             Best <em>Homemade</em> Cookies in Richfield, Minnesota!
           </strong>
         </h1>
-        <h5 className="pt-2">
+        <h5 className="pt-2 px-3">
           Try My S'mores Cookie, You Definitely Won't Regret It!
         </h5>
         <div className="pt-5 pb-5">
@@ -41,20 +40,16 @@ function Home() {
           </Button>
         </div>
         <img
-          className="img img-fluid rounded"
+          className="img-fluid rounded px-3"
           src={Cookie1}
-          width="600px"
           height="600px"
+          width="600px"
         />
         <div className=" Aboutme pt-5">
           <div className="aboutme_header border-top border-bottom pt-5 pb-5">
             <strong className="header_text">About Me</strong>
           </div>
-
-          <Row className="border-bottom pt-5 pb-5">
-            <Col xs={2}>
-              <strong>About me</strong>
-            </Col>
+          <Row className="border-bottom pt-5 pb-5 aboutme_info">
             <Col className="px-5">
               Hi! I'm Janessa and I'm 19 years old. I started my cookie business
               in 2020 during quarantine and have been creating cookies ever
@@ -70,7 +65,9 @@ function Home() {
           <h2 className="pb-5">
             <strong>Here's some of my cookies!</strong>
           </h2>
-          <Carousel />
+          <div className="px-3">
+            <Carousel />
+          </div>
         </div>
         <div className="contact pt-5  ">
           <div className="contact_header border-top border-bottom pt-5 pb-5 ">
@@ -79,19 +76,19 @@ function Home() {
           <div className="contact_info border-bottom d-flex flex-column align-items-center ">
             <div className=" pb-5 pt-5  ">
               <Row>
-                <Col className="pt-5 mt-5 ">
-                  <img className="img-fluid rounded" src={Chefness} />
+                <Col className="pt-5 mt-5 px-3">
+                  <img className="img-fluid rounded image" src={Chefness} />
                 </Col>
                 <Col className="pt-5 mt-5  ">
-                  <h2>Chefness</h2>
+                  <h2 className="pt-4 px-3">Chefness</h2>
                   <h2>
                     <b>612-296-1993</b>
                   </h2>
-                  <p>Available Throughout the week</p>
-                  <p className="pt-3 ">
-                    Feel free to contact me whenever for any questions regarding
-                    purchases
+                  <p className="pt-2 ">
+                    Available <br />
+                    <b>Monday - Friday</b>
                   </p>
+                  <p className="pt-3 px-3">Feel free to contact me whenever!</p>
                   <Link to="/Contact">
                     <Button variant="outline-danger" size="md">
                       Contact Me
@@ -104,7 +101,7 @@ function Home() {
           </div>
           <div className="footer pt-5 pb-5">
             <FontAwesomeIcon
-              className="me-4 fa-3x icon"
+              className=" fa-3x icon"
               icon={faInstagram}
               onClick={() =>
                 window.open("https://www.instagram.com/chefness024/?hl=en")

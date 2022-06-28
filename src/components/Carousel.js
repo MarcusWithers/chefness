@@ -113,6 +113,19 @@ export default class Carousel extends Component {
       slidesToShow: 3,
       slidesToScroll: 2,
       className: "slides",
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            swipeToSlide: true,
+            slidesToShow: 2,
+            dots: true,
+            infinite: true,
+            speed: 1500,
+            centerPadding: "60px",
+          },
+        },
+      ],
     };
 
     return (
