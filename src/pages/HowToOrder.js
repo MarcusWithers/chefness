@@ -49,10 +49,7 @@ function HowToOrder() {
         <p>
           No deliveries, pick up <strong>only</strong>
         </p>
-        <p>
-          Interested in ordering a cake? DM me and we can work something out!
-        </p>
-        <p>Menu changes every month</p>
+        <p>Menu changes every season</p>
         <p>
           Please respect my <em>time</em> and my <em>money</em> and try not to
           be late for any pickups!
@@ -66,8 +63,8 @@ function HowToOrder() {
 
       <div>
         <h2 className="pt-5 pb-5">Prices:</h2>
-        <h4>6 pack of cookies: $11.99 (Up to two types of cookies)</h4>
-        <h4>12 pack of cookies: $19.99 (Up to three types of cookies)</h4>
+        <h4>6 pack of cookies: $13.99 (Up to two types of cookies)</h4>
+        <h4>12 pack of cookies: $21.99 (Up to three types of cookies)</h4>
         <h2 className="pt-5 pb-5">Other Items:</h2>
         <h4 className="pb-5">
           Banana bread loaf: $11.99 + ($1.99 for additional chocolate chips or
@@ -81,11 +78,6 @@ function HowToOrder() {
           onClick={() =>
             window.open("https://www.instagram.com/chefness024/?hl=en")
           }
-        />
-        <FontAwesomeIcon
-          className="me-4 fa-3x icon"
-          icon={faEnvelope}
-          onClick={() => window.open("mailto:cookiesbychefness24@gmail.com")}
         />
       </div>
     </div>

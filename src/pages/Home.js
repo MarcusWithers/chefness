@@ -14,6 +14,8 @@ import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import "../styles/styles.css";
 import Burger from "../components/Burger";
+import Contact from "./Contact";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function Home() {
   const navigate = useNavigate();
@@ -34,7 +36,7 @@ function Home() {
           Try My S'mores Cookie, You Definitely Won't Regret It!
         </h5>
         <div className="pt-5 pb-5">
-          <Button className=" btn-danger" size="lg" onClick={navigateToMenu}>
+          <Button variant="outline-danger" size="lg" onClick={navigateToMenu}>
             Menu
           </Button>
         </div>
@@ -53,28 +55,13 @@ function Home() {
             <Col xs={2}>
               <strong>About me</strong>
             </Col>
-            <Col>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </Col>
-          </Row>
-          <Row className="pt-5 pb-5 ">
-            <Col xs={2}>
-              <strong>About me</strong>
-            </Col>
-            <Col>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <Col className="px-5">
+              Hi! I'm Janessa and I'm 19 years old. I started my cookie business
+              in 2020 during quarantine and have been creating cookies ever
+              since! I definitely recommend the s'mores cookie, it has been on
+              the menu since I started and it's definitely a customer favorite!
+              😄 I appreciate all of the continuous support since I started this
+              journey and I look forward to many more years of baking! 🍪
             </Col>
           </Row>
         </div>
@@ -85,57 +72,59 @@ function Home() {
           </h2>
           <Carousel />
         </div>
-        <div className="contact pt-5 ">
-          <div className="contact_header border-top border-bottom pt-5 pb-5">
+        <div className="contact pt-5  ">
+          <div className="contact_header border-top border-bottom pt-5 pb-5 ">
             <strong className="header_text">Contact</strong>
           </div>
-          <div className="border-bottom ">
-            <div className="d-flex justify-content-center align-items-center pb-5 pt-5">
+          <div className="contact_info border-bottom d-flex flex-column align-items-center ">
+            <div className=" pb-5 pt-5  ">
               <Row>
-                <Col className="pt-5 mt-5">
+                <Col className="pt-5 mt-5 ">
                   <img className="img-fluid rounded" src={Chefness} />
+                </Col>
+                <Col className="pt-5 mt-5  ">
+                  <h2>Chefness</h2>
+                  <h2>
+                    <b>612-296-1993</b>
+                  </h2>
+                  <p>Available Throughout the week</p>
                   <p className="pt-3 ">
                     Feel free to contact me whenever for any questions regarding
                     purchases
                   </p>
-                  <Button className=" btn-danger">Contact Me</Button>
-                </Col>
-                <Col>
-                  <h2>Chefness</h2>
-                  <h2>xxx-xxx-xxxx</h2>
-                  <p>Available During These Days</p>
-                  <p>Sunday</p>
-                  <p>Monday</p>
-                  <p>Tuesday</p>
-                  <p>Wednesday</p>
-                  <p>Thursday</p>
-                  <p>Friday</p>
-                  <p>Saturday</p>
+                  <Link to="/Contact">
+                    <Button variant="outline-danger" size="md">
+                      Contact Me
+                    </Button>
+                  </Link>
                   <br />
                 </Col>
               </Row>
             </div>
-            <div className="footer pt-5 pb-5">
+          </div>
+          <div className="footer pt-5 pb-5">
+            <FontAwesomeIcon
+              className="me-4 fa-3x icon"
+              icon={faInstagram}
+              onClick={() =>
+                window.open("https://www.instagram.com/chefness024/?hl=en")
+              }
+            />
+          </div>
+          <div className="footer_footer pt-5 pb-5 ">
+            <img src={Chefness} />
+            <p className="pt-5">Chefness | Richfield, MN 55423</p>
+            <p>
+              <b> 📞612-296-1993</b> |{" "}
               <FontAwesomeIcon
-                className="me-4 fa-3x icon"
+                className=" fa-1x icon insta_footer"
                 icon={faInstagram}
                 onClick={() =>
                   window.open("https://www.instagram.com/chefness024/?hl=en")
                 }
               />
-              <FontAwesomeIcon
-                className="me-4 fa-3x icon"
-                icon={faEnvelope}
-                onClick={() =>
-                  window.open("mailto:cookiesbychefness24@gmail.com")
-                }
-              />
-            </div>
-            <div className="footer_footer pt-5 pb-5">
-              <img src={Chefness} />
-              <p className="pt-5">Chefness | Richfield, MN 55423</p>
-              <p>xxx-xxx-xxxx | chefness24@gmail.com</p>
-            </div>
+              chefness024
+            </p>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ function Menu() {
       <Burger />
       <div>
         <Dropdown className="dropdown pt-5 ">
-          <Dropdown.Toggle variant="danger" id="dropdown-basic">
+          <Dropdown.Toggle variant="outline-danger" id="dropdown-basic">
             Menu
           </Dropdown.Toggle>
           <Dropdown.Menu>
@@ -73,11 +73,6 @@ function Menu() {
           onClick={() =>
             window.open("https://www.instagram.com/chefness024/?hl=en")
           }
-        />
-        <FontAwesomeIcon
-          className="me-4 fa-3x  icon"
-          icon={faEnvelope}
-          onClick={() => window.open("mailto:cookiesbychefness24@gmail.com")}
         />
       </div>
     </div>
