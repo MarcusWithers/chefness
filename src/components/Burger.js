@@ -1,12 +1,7 @@
 import React, { useState } from "react";
 import "../styles/burger.css";
 import "../styles/styles.css";
-import Home from "../pages/Home";
-import HowToOrder from "../pages/HowToOrder";
-import Menu from "../pages/Menu";
-import ErrorPage from "../pages/ErrorPage";
-import Contact from "../pages/Contact";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Burger() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);

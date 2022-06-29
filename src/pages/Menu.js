@@ -1,24 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import { useNavigate } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Cookie from "../images/cookie.png";
 import SixPack from "../images/6pack.jpg";
 import TwelvePack from "../images/12pack.jpg";
 import BananaBread from "../images/bananabread.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import Dropdown from "react-bootstrap/Dropdown";
-import DropdownButton from "react-bootstrap/DropdownButton";
 import Burger from "../components/Burger";
 import "../styles/styles.css";
-import Chefness from "../images/chefness.jpg";
 import MenuCarousel from "../components/MenuCarousel";
-import Modal from "@mui/material/Modal";
-import Box from "@mui/material/Box";
 import Button from "react-bootstrap/Button";
+import FooterComponent from "../pages/components/FooterComponent";
 
 function Menu() {
   const navigate = useNavigate();
@@ -116,30 +108,7 @@ function Menu() {
           Order
         </Button>
       </div>
-      <div className="footer pt-5 pb-5">
-        <FontAwesomeIcon
-          className="fa-3x icon "
-          icon={faInstagram}
-          onClick={() =>
-            window.open("https://www.instagram.com/chefness024/?hl=en")
-          }
-        />
-      </div>
-      <div className="footer_footer pt-5 pb-5 ">
-        <img src={Chefness} />
-        <p className="pt-5">Chefness | Richfield, MN 55423</p>
-        <p>
-          <b> 📞612-296-1993</b> |{" "}
-          <FontAwesomeIcon
-            className=" fa-1x icon insta_footer"
-            icon={faInstagram}
-            onClick={() =>
-              window.open("https://www.instagram.com/chefness024/?hl=en")
-            }
-          />
-          chefness024
-        </p>
-      </div>
+      <FooterComponent />
     </div>
   );
 }

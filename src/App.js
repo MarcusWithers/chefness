@@ -1,12 +1,7 @@
 import "./App.css";
 import "./styles/styles.css";
-import Carousel from "./components/Carousel";
-import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Chefness from "./images/chefness.jpg";
-import Button from "react-bootstrap/Button";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import HowToOrder from "./pages/HowToOrder";
@@ -35,6 +30,7 @@ const App = () => {
                 src={Chefness}
                 width="280px"
                 height="280px"
+                alt="Cookies by Chefness"
               />
             </Link>
             <Link className="nav_link" to="/HowToOrder">

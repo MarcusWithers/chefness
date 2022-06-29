@@ -129,19 +129,26 @@ export default class Carousel extends Component {
     };
 
     return (
-      <Slider {...settings}>
-        {images.map((image) => {
-          return (
-            <div className="wrapper" key="{image.id}">
-              <img
-                className="sliderImg img-fluid rounded"
-                src={image.url}
-                alt={image.alt}
-              />
-            </div>
-          );
-        })}
-      </Slider>
+      <>
+        <div className="pt-5 pb-5 px-3 border-top">
+          <h2 className="pb-5">
+            <strong>Here's some of my cookies!</strong>
+          </h2>
+        </div>
+        <Slider {...settings}>
+          {images.map((image) => {
+            return (
+              <div className="wrapper" key="{image.id}">
+                <img
+                  className="sliderImg img-fluid rounded"
+                  src={image.url}
+                  alt={image.alt}
+                />
+              </div>
+            );
+          })}
+        </Slider>
+      </>
     );
   }
 }

@@ -126,6 +126,12 @@ h5 {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .aboutme_info {
+    font-size: 12px;
+  }
+}
+
 .footer {
   background-color: #e4d1b4;
   display: flex;
