@@ -67,7 +67,7 @@ const images = [
   },
   {
     id: "8",
-    name: "Fudge or Oreo",
+    name: "Brownie",
     alt: "Brownies",
     url: brownies,
     description: "Fudge (left) or Oreo (right)",

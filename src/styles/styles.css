@@ -166,8 +166,19 @@ h5 {
   outline: none;
 }
 
-.menu_item {
+@media screen and (max-width: 600px) {
+  .chefness_header {
+    width: 180px;
+    height: 180px;
+  }
 }
+@media screen and (min-width: 601px) {
+  .chefness_header {
+    width: 280px;
+    height: 280px;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .menu_item {
     width: 400px;

@@ -141,6 +141,7 @@ export default class Carousel extends Component {
               <div className="wrapper" key="{image.id}">
                 <img
                   className="sliderImg img-fluid rounded"
+                  style={{ paddingLeft: "5px", paddingRight: "5px" }}
                   src={image.url}
                   alt={image.alt}
                 />

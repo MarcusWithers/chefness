@@ -25,11 +25,11 @@ const App = () => {
             </Link>
             <Link className="" to="/">
               <img
-                className="img-fluid
+                className="chefness_header img-fluid
                 rounded"
                 src={Chefness}
-                width="280px"
-                height="280px"
+                //width="280px"
+                // height="280px"
                 alt="Cookies by Chefness"
               />
             </Link>

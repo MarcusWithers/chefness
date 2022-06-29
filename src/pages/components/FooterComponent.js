@@ -18,7 +18,11 @@ const FooterComponent = () => {
         />
       </div>
       <div className="footer_footer pt-5 pb-5 ">
-        <img src={Chefness} alt="Cookies by Chefness " />
+        <img
+          className="chefness_header"
+          src={Chefness}
+          alt="Cookies by Chefness "
+        />
         <p className="pt-5">Chefness | Richfield, MN 55423</p>
         <p>
           <b> 📞612-296-1993</b> |{" "}
