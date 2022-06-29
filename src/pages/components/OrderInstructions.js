@@ -71,9 +71,6 @@ const OrderInstructions = () => {
         <h4 className="pb-5 px-3">
           12 pack of cookies: $21.99 (Up to three types of cookies)
         </h4>
-        <h4 className="px-3">
-          3 Pack of brownies: $8.99 (One type of brownie)
-        </h4>
         <h4 className="pb-5 px-3">
           6 Pack of brownies: $17.99 (Up to two types of brownies)
         </h4>

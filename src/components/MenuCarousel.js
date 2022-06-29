@@ -1,13 +1,14 @@
 import "../styles/styles.css";
 import React, { useState } from "react";
 import Slider from "react-slick";
-import bananasplit from "../images/banana_split.jpg";
-import croll from "../images/cinnamon_roll.jpg";
-import cbrownie from "../images/cosmic_brownie.jpg";
-import mcc from "../images/mint_chocolate_chip_whole.jpg";
-import nutellapeanut from "../images/nutella_peanutbutter.jpg";
-import smores from "../images/s'mores.jpg";
-import twix from "../images/twix.jpg";
+import bananasplit from "../images/banana_split_plain.jpg";
+import croll from "../images/cinnamon_roll_plain.jpg";
+import cbrownie from "../images/cosmic_brownie_plain.jpg";
+import mcc from "../images/mint_chocolate_chip.jpg";
+import nutellapeanut from "../images/nutella_peanutbutter_plain.jpg";
+import smores from "../images/s'mores_plain.jpg";
+import twix from "../images/twix_plain.jpg";
+import brownies from "../images/brownies_menu_carousel.jpg";
 import Modal from "@mui/material/Modal";
 import Box from "@mui/material/Box";
 import Button from "react-bootstrap/Button";
@@ -18,7 +19,8 @@ const images = [
     name: "S'mores",
     alt: "S'Mores Cookie",
     url: smores,
-    description: "Fan favorite! Made with marshmallows & chocolate 😋",
+    description:
+      "Fan favorite! Made with marshmallows & Hershey's chocolate 😋",
   },
   {
     id: "2",
@@ -46,7 +48,7 @@ const images = [
     name: "Nutella Peanut Butter",
     alt: "Nutella Peanut Butter Cookie",
     url: nutellapeanut,
-    description: "Made with nutella & peanut butter",
+    description: "Made with Nutella & peanut butter",
   },
   {
     id: "6",
@@ -61,7 +63,14 @@ const images = [
     name: "Twix",
     alt: "Twix Cookie",
     url: twix,
-    description: "Made with caramel & twix",
+    description: "Made with caramel & Twix",
+  },
+  {
+    id: "8",
+    name: "Fudge or Oreo",
+    alt: "Brownies",
+    url: brownies,
+    description: "Fudge (left) or Oreo (right)",
   },
 ];
 const style = {

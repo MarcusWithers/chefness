@@ -166,6 +166,8 @@ h5 {
   outline: none;
 }
 
+.menu_item {
+}
 @media screen and (min-width: 992px) {
   .menu_item {
     width: 400px;
