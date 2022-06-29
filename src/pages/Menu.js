@@ -55,7 +55,7 @@ function Menu() {
       <div className="pt-5 pb-5  ">
         <Row>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded pb-5">
-            <img src={SixPack} width="300px" />
+            <img className="menu_item" src={SixPack} />
             <p className="pt-4">6 Pack</p>
             <p>
               <em>Up to two types of cookies</em>
@@ -63,25 +63,33 @@ function Menu() {
             <p>$13.99</p>
           </Col>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
-            <img src={TwelvePack} width="300px" />
+            <img className="menu_item" src={TwelvePack} />
             <p className="pt-4">12 Pack</p>
             <p>
               <em>Up to three types of cookies</em>
             </p>
             <p>$21.99</p>
           </Col>
+          <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
+            <img className="menu_item" src={BananaBread} />
+            <p className="pt-4"> Small Banana Bread Loaf</p>
+            <p>
+              <em>$1.99 for chocolate chips or nuts</em>{" "}
+            </p>
+            <p>$11.99</p>
+          </Col>
+        </Row>
+        <Row>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded pb-5">
-            <img src={SixPack} width="300px" />
+            <img className="menu_item" src={SixPack} />
             <p className="pt-4">3 Pack</p>
             <p>
               <em>Three of one kind </em>
             </p>
             <p>$8.99</p>
           </Col>
-        </Row>
-        <Row>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
-            <img src={TwelvePack} width="300px" />
+            <img className="menu_item" src={TwelvePack} />
             <p className="pt-4">6 Pack</p>
             <p>
               <em>Up to two types of brownies</em>
@@ -89,15 +97,7 @@ function Menu() {
             <p>$17.99</p>
           </Col>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
-            <img src={BananaBread} width="300px" />
-            <p className="pt-4"> Small Banana Bread Loaf</p>
-            <p>
-              <em>$1.99 for chocolate chips or nuts</em>{" "}
-            </p>
-            <p>$11.99</p>
-          </Col>
-          <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
-            <img src={BananaBread} width="300px" />
+            <img className="menu_item" src={BananaBread} />
             <p className="pt-4"> Large Banana Bread Loaf</p>
             <p>
               <em>$1.99 for chocolate chips or nuts</em>{" "}

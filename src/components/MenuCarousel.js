@@ -16,42 +16,42 @@ const images = [
   {
     id: "1",
     name: "S'mores",
-    alt: "Cookie",
+    alt: "S'Mores Cookie",
     url: smores,
     description: "Fan favorite! Made with marshmallows & chocolate 😋",
   },
   {
     id: "2",
     name: "Cinnamon Roll",
-    alt: "Cookie",
+    alt: "Cinnamon Roll Cookie",
     url: croll,
     description: "Made with vanilla icing & a cinnamon roll cookie base",
   },
   {
     id: "3",
     name: "Cosmic Brownie",
-    alt: "Cookie",
+    alt: "Cosmic Brownie Cookie",
     url: cbrownie,
     description: "Made with chocolate fudge & sprinkles",
   },
   {
     id: "4",
     name: "Mint Chocolate Chip",
-    alt: "Cookie",
+    alt: "Mint Chocolate Chip Cookie",
     url: mcc,
     description: "Made with chocolate chunks & a mint cookie base",
   },
   {
     id: "5",
     name: "Nutella Peanut Butter",
-    alt: "Cookie",
+    alt: "Nutella Peanut Butter Cookie",
     url: nutellapeanut,
     description: "Made with nutella & peanut butter",
   },
   {
     id: "6",
     name: "Banana Split",
-    alt: "Cookie",
+    alt: "Banana Split Cookie",
     url: bananasplit,
     description:
       "Made with chocolate chips, sprinkles & a delicious banana cookie base",
@@ -59,7 +59,7 @@ const images = [
   {
     id: "7",
     name: "Twix",
-    alt: "Cookie",
+    alt: "Twix Cookie",
     url: twix,
     description: "Made with caramel & twix",
   },
@@ -96,13 +96,13 @@ export default function MenuCarousel() {
     infinite: true,
     speed: 1500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     className: "slides",
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          swipeToSlide: true,
+          slidesToScroll: 1,
           slidesToShow: 2,
           dots: true,
           infinite: true,
