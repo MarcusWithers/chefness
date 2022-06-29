@@ -1,4 +1,4 @@
-Live site demo - Migrating to VPS server
+Live site demo - https://cookiesbychefness.com/
 
 permalink: /index.html
 E-Commerce website built with React!
