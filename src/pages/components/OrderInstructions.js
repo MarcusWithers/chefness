@@ -20,7 +20,6 @@ const OrderInstructions = () => {
       <h3 className="pb-5 px-3">
         Below is what to include in your DM (No online orders)
       </h3>
-
       <p className="pb-3 px-3 ">
         What your order is along with what type of cookies/brownies you'd like.
       </p>
@@ -64,7 +63,6 @@ const OrderInstructions = () => {
           least a week in advance.
         </p>
       </div>
-
       <div>
         <h2 className="pt-5 pb-5 px-3">Prices:</h2>
         <h4 className="px-3">
