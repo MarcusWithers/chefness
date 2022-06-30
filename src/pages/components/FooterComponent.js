@@ -33,7 +33,7 @@ const FooterComponent = () => {
               window.open("https://www.instagram.com/chefness024/?hl=en")
             }
           />
-          chefness024
+          @chefness024
         </p>
       </div>
     </div>

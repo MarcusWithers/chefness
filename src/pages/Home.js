@@ -20,12 +20,10 @@ function Home() {
       <div className="bg container-fluid g-0 text-center  ">
         <Burger />
         <h1 className="pt-5 px-3">
-          <strong>
-            Best <em>Homemade</em> Cookies in Richfield, Minnesota!
-          </strong>
+          <strong>Best Homemade Cookies in Richfield, Minnesota!</strong>
         </h1>
         <h5 className="pt-2 px-3">
-          Try My S'mores Cookie, You Definitely Won't Regret It! 😋
+          Try my s'mores cookie, you definitely won't regret it! 😋
         </h5>
         <div className="pt-5 pb-5">
           <Button variant="outline-danger" size="lg" onClick={navigateToMenu}>
