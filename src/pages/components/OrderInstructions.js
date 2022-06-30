@@ -66,20 +66,18 @@ const OrderInstructions = () => {
       <div>
         <h2 className="pt-5 pb-5 px-3">Prices:</h2>
         <h2 className="pb-3">Cookies</h2>
-        <h4 className="px-3">6 pack: $13.99 (Up to two types of cookies)</h4>
+        <h4 className="px-3">6 pack: $14 (Up to two types of cookies)</h4>
         <h4 className="pb-5 px-3">
-          12 pack: $21.99 (Up to three types of cookies)
+          12 pack: $22 (Up to three types of cookies)
         </h4>
         <h2 className="pb-3">Brownies</h2>
-        <h4 className="pb-5 px-3">
-          6 Pack: $17.99 (Up to two types of brownies)
-        </h4>
+        <h4 className="pb-5 px-3">6 Pack: $18 (Up to two types of brownies)</h4>
         <h2 className="pb-3">Banana Bread</h2>
         <h4 className="px-3">
-          Small loaf: $11.99 + ($1.99 for additional chocolate chips or nuts)
+          Small loaf: $12 + ($2 for additional chocolate chips or nuts)
         </h4>
         <h4 className="pb-5 px-3">
-          Large loaf: $14.99 + ($1.99 for additional chocolate chips or nuts)
+          Large loaf: $15 + ($2 for additional chocolate chips or nuts)
         </h4>
       </div>
     </div>

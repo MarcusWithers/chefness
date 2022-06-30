@@ -57,7 +57,7 @@ function Menu() {
             <p>
               <em>Up to two types of cookies</em>
             </p>
-            <p>$13.99</p>
+            <p>$14</p>
           </Col>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
             <img className="menu_item" src={TwelvePack} />
@@ -65,7 +65,7 @@ function Menu() {
             <p>
               <em>Up to three types of cookies</em>
             </p>
-            <p>$21.99</p>
+            <p>$22</p>
           </Col>
           <Col className="col-xl-4 col-lg-4 col-sm-6 col-md-4 img-fluid rounded">
             <img className="menu_item" src={Brownies} />
@@ -73,7 +73,7 @@ function Menu() {
             <p>
               <em>Up to two types of brownies</em>
             </p>
-            <p>$17.99</p>
+            <p>$18</p>
           </Col>
         </Row>
         <Row>
@@ -81,17 +81,17 @@ function Menu() {
             <img className="menu_item" src={BananaBreadSmall} />
             <p className="pt-4"> Small Banana Bread Loaf</p>
             <p>
-              <em>$1.99 for chocolate chips or nuts</em>{" "}
+              <em>$2 for chocolate chips or nuts</em>{" "}
             </p>
-            <p>$11.99</p>
+            <p>$12</p>
           </Col>
           <Col className="col-xl-6 col-lg-6 col-sm-6 col-md-6 img-fluid rounded">
             <img className="menu_item" src={BananaBread} />
             <p className="pt-4"> Large Banana Bread Loaf</p>
             <p>
-              <em>$1.99 for chocolate chips or nuts</em>{" "}
+              <em>$2 for chocolate chips or nuts</em>{" "}
             </p>
-            <p>$14.99</p>
+            <p>$15</p>
           </Col>
         </Row>
         <Row className="menu_carousel pt-5">
